@@ -1,0 +1,99 @@
+aside.profile {
+  width: 260px;
+}
+
+aside.profile img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+}
+
+aside.profile h1 {
+  font-size: 21px;
+  color: #1f2226;
+  margin-top: 10px;
+}
+
+aside.profile span {
+  font-size: 14px;
+  color: #53626c;
+}
+
+aside.profile p {
+  font-size: 14px;
+  color: #1f2226;
+  margin-top: 15px;
+}
+
+aside.profile ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+aside.profile ul.list li {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #657786;
+  display: flex;
+  align-items: center;
+}
+
+aside.profile ul.list li:first-child {
+  margin: 0;
+}
+
+aside.profile ul.list li img {
+  margin-right: 10px;
+}
+
+aside.profile .widget {
+  margin-top: 20px;
+}
+
+aside.profile .widget strong {
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+aside.profile .widget strong img {
+  margin-right: 5px;
+}
+
+aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+aside.profile .followers ul li {
+  width: 45px;
+  height: 45px;
+  background: #d0d5d9;
+  border-radius: 50%;
+  margin: 0 5px 10px 0;
+  flex: 1 0 auto
+}
+
+aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+aside.profile .images ul li {
+  width: 80px;
+  height: 80px;
+  background: #d0d5d9;
+  border-radius: 8px;
+  margin: 0 5px 10px 0;
+  flex: 1 0 auto
+}
